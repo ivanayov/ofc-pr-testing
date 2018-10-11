@@ -1,0 +1,54 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  func1:
+    lang: go
+    handler: ./func1
+    image: ivanayov/func1:latest
+
+  func2:
+    lang: go
+    handler: ./func2
+    image: ivanayov/func2:latest
+
+  func3:
+    lang: go
+    handler: ./func3
+    image: ivanayov/func3:latest
+
+  func4:
+    lang: go
+    handler: ./func4
+    image: ivanayov/func4:latest
+
+  func5:
+    lang: go
+    handler: ./func5
+    image: ivanayov/func5:latest
+
+  func6:
+    lang: go
+    handler: ./func6
+    image: ivanayov/func6:latest
+
+  func7:
+    lang: go
+    handler: ./func7
+    image: ivanayov/func7:latest
+
+  func8:
+    lang: go
+    handler: ./func8
+    image: ivanayov/func8:latest
+
+  func9:
+    lang: go
+    handler: ./func9
+    image: ivanayov/func9:latest
+
+  func10:
+    lang: go
+    handler: ./func10
+    image: ivanayov/func10:latest
