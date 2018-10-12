@@ -6,5 +6,5 @@ import (
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	return fmt.Sprintf("Hello, Go. I'm function 1")
+	return fmt.Sprintf("Hello, Go. I'm function 1. Testing")
 }
